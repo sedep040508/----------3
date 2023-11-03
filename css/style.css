@@ -634,39 +634,13 @@ p.food_txt {
   flex-wrap: wrap;
   margin-bottom: 24px;
 }
-
-.containerz {
-  width: 1600px;
-  height: 778px;
-  flex-shrink: 0;
+footer{
   background: #474747;
 }
-
-.h2b {
-  color: #FFF;
-  font-family: Playfair Display;
-  font-size: 32.67px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 29.333px;
-  /* 89.787% */
-  letter-spacing: -0.4px;
+.footer_left{
+  
 }
-
-.foot_img {
-  width: 56px;
-  height: 55px;
-  flex-shrink: 0;
-}
-
-.bliss {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 30px;
-}
-
-.top {
+.footer_copy {
   color: var(--neutral-04, #ADB29E);
 
   /* Body/16px/Regular */
@@ -676,11 +650,4 @@ p.food_txt {
   font-weight: 400;
   line-height: 24px;
   /* 150% */
-  width: 293px;
-}
-
-.footer_ic {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
 }
