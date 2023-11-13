@@ -665,6 +665,12 @@ footer {
   background: var(--neutral-02, #F9F9F7);
 }
 
+.sedep_form {
+  width: 812px;
+  height: 504px;
+  margin: 152px 394px 0 152px;
+}
+
 .box {
   display: flex;
   flex-direction: column;
@@ -691,9 +697,32 @@ form {
   background: var(--neutral-01, #FFF);
 }
 
-.sedep_img {
-  display: inline-flex;
-  justify-content: flex-end;
-  align-items: center;
+.hero_tit {
+  color: var(--neutral-07, #2C2F24);
+  text-align: center;
+
+  /* Headline/H1 */
+  font-family: "Playfair Display";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  /* 96% */
+  margin-bottom: 20px;
 }
 
+.hero_txt {
+  color: var(--neutral-06, #495460);
+  text-align: center;
+
+  /* Body/18px/Regular */
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
+  width: 557px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}

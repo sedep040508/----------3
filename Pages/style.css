@@ -344,7 +344,23 @@ footer {
     font-weight: 700;
     line-height: 28px;
 }
+ul::before{
+    counter-increment: section;
+    content: "Секция " counter(section) ": "; 
+}
 
 li {
     display: flex;
+}
+.count{
+    counter-reset: test;
+}
+.count li::before{
+    content: "1";
+    margin-right: 10px;
+    counter-increment: test;
+    content: counter(test);
+    counter-reset: bubu;
+    
+
 }
