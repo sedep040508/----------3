@@ -181,7 +181,7 @@ section {
   margin: 0 8px;
 }
 .main {
-  background: url(../img/main_bg.jpg) center no-repeat;
+  background: url(/img/about/bg.jpg) center no-repeat;
 }
 .btn__red {
   background: #ad343e;
@@ -210,17 +210,18 @@ section {
   margin: 0 auto 30px;
 }
 .browse_card__1 .browse_ic {
-  background-image: url();
+  background: url(/img/about/tea\ 1\ \(2\).svg) center no-repeat;
 }
 .browse_card__2 .browse_ic {
-  background-image: url();
-}
+    background-image: url(/img/about/icon.svg);
+  }
 .browse_card__3 .browse_ic {
-  background-image: url();
+  background-image: url(/img/about/icon\ \(1\).svg);
 }
 .browse_card__4 .browse_ic {
-  background-image: url();
+  background-image: url(/img/about/icon\ \(2\).svg);
 }
+
 .browse_tit {
   color: #2c2f24;
   text-align: center;
