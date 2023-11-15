@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background: #d1cbcb;
 }
 
 * {
@@ -672,22 +673,41 @@ footer {
   margin: 152px 394px 0 152px;
 }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
+.form_int {
   border-radius: 16px;
   border: 1px solid var(--neutral-01, #FFF);
-  background: var(--neutral-01, #FFF);
-  /* 1 */
+  background: #fff;
+  max-width: 812px;
+  margin: 0 auto;
+  padding: 43px 50px 50px;
   box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
-  width: 812px;
-  height: 504px;
-  flex-shrink: 0;
-  margin-bottom: -425px;
 }
+
+.form_txt {
+  color: var(--neutral-07, #2C2F24);
+
+  /* Body/16px/Bold */
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+.form_input-in {
+  border-radius: 72px;
+  border: 1px solid var(--neutral-03, #DBDFD0);
+  background: var(--neutral-01, #FFF);
+  margin-bottom: 24px;
+  padding: 0 24px;
+}
+.input{
+  line-height: 58px;
+  font-size: 16px;
+}
+
+
 
 .row {
   display: flex;
@@ -696,16 +716,7 @@ footer {
   gap: 24px;
 }
 
-form {
-  width: 350px;
-  height: 60px;
-  padding: 0px 24px;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 72px;
-  border: 1px solid var(--neutral-03, #DBDFD0);
-  background: var(--neutral-01, #FFF);
-}
+
 
 .hero_tit {
   color: var(--neutral-07, #2C2F24);
