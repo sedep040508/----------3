@@ -662,7 +662,8 @@ footer {
 
 /* sedep */
 .sedep {
-  background: var(--neutral-02, #F9F9F7);
+  z-index: 10;
+  position: relative;
 }
 
 .sedep_form {
@@ -674,9 +675,18 @@ footer {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--neutral-01, #FFF);
+  background: var(--neutral-01, #FFF);
+  /* 1 */
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+  width: 812px;
+  height: 504px;
+  flex-shrink: 0;
+  margin-bottom: -425px;
 }
 
 .row {

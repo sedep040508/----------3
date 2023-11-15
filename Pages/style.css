@@ -336,17 +336,8 @@ footer {
     margin-bottom: 20px;
 }
 
-.shrift {
-    color: var(--neutral-06, #414536);
-    font-family: "DM Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-}
 ul::before{
-    counter-increment: section;
-    content: "Секция " counter(section) ": "; 
+     
 }
 
 li {
