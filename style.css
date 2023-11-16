@@ -291,6 +291,10 @@ section {
     margin-bottom: 15px;
 }
 
+.browse_txt {
+    width: 238px;
+}
+
 .provide {
     background: #f9f9f7;
 }
@@ -434,7 +438,7 @@ section {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #ad343e url(../img/icons/clock.svg) center no-repeat;
+    background: #ad343e url() center no-repeat;
 }
 
 /* .fast_icon:nth-child(2) i{
@@ -550,11 +554,11 @@ footer {
     padding-bottom: 100px;
     border-bottom: 1px solid #414536;
     color: #DBDFD0;
+    
 }
 
 .footer_left {
     width: 30%;
-    gap: 0px;
 }
 
 .footer_nav {
@@ -563,14 +567,28 @@ footer {
 
 .footer_right {
     width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .footer_tit {
     color: #fff;
+    color: var(--neutral-01, #FFF);
+
+    /* Body/16px/Bold */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
 }
 
 .footer_logo {
     display: block;
+    display: flex;
     width: 56px;
     height: 55px;
 }
@@ -608,6 +626,34 @@ footer {
     opacity: 0.5;
 }
 
+.footer_icons {
+    display: flex;
+    gap: 12px;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer_ic {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ad343e url() center no-repeat;
+}
+
+
 /* feel */
 .feel_top {
     background: url(../img/feel_bg.jpg) center no-repeat;
@@ -644,9 +690,8 @@ footer {
     border-radius: 50%;
     background: #fff;
     margin: 0 auto 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    margin-left: 5px;
 }
 
 .feel_play::before {
@@ -657,8 +702,8 @@ footer {
     margin-left: 5px;
     border-width: 12.5px 0 12.5px 20px;
     border-color: transparent transparent transparent #AD343E;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+
 }
 
 .count {
@@ -877,13 +922,16 @@ footer {
     bottom: 0;
     right: 0;
 }
-.jaz{
+
+.jaz {
     margin-bottom: 45px;
 }
-.tel{
+
+.tel {
     margin-bottom: 25px;
 }
-svg{
+
+svg {
     margin-right: 20px;
 }
 
