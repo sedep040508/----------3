@@ -554,7 +554,7 @@ footer {
     padding-bottom: 100px;
     border-bottom: 1px solid #414536;
     color: #DBDFD0;
-    
+
 }
 
 .footer_left {
@@ -758,6 +758,10 @@ footer {
     border: 1px solid #DBDFD0;
     margin-bottom: 24px;
     padding: 0 24px;
+}
+
+.form_input-ink {
+    width: 100%;
 }
 
 .input {
@@ -1217,4 +1221,73 @@ svg {
     font-size: 16px;
     line-height: 24px;
     /* 150% */
+}
+
+.frame_tit {
+    color: var(--neutral-07, #2C2F24);
+
+    /* Body/20px/Bold */
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 130% */
+    margin-bottom: 24px;
+}
+
+.info {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 90px;
+    margin-left: 300px;
+}
+
+.frame_txt {
+    color: var(--neutral-07, #2C2F24);
+
+    /* Body/18px/Regular */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.inputx {
+    height: 136px;
+}
+
+.form_input-inkx {
+    border-radius: 16px;
+    border: 1px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
+    display: flex;
+    height: 156px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.frame {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.frame_title {
+    color: #AD343E;
+
+    /* Headline/H3 */
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+    letter-spacing: -0.72px;
 }
