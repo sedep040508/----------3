@@ -650,7 +650,7 @@ footer {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #ad343e url() center no-repeat;
+    background: #ad343e url(/facebook.svg) center no-repeat;
 }
 
 
@@ -754,6 +754,9 @@ footer {
 }
 
 .form_input-in {
+    border-radius: 16px;
+    border: 1px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
     border-radius: 72px;
     border: 1px solid #DBDFD0;
     margin-bottom: 24px;
@@ -1267,9 +1270,6 @@ svg {
 }
 
 .form_input-inkx {
-    border-radius: 16px;
-    border: 1px solid var(--neutral-03, #DBDFD0);
-    background: var(--neutral-01, #FFF);
     display: flex;
     height: 156px;
     padding: 24px;
