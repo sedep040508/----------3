@@ -662,19 +662,11 @@ footer {
     padding: 215px 0;
 }
 .logo_img{
-    
+
 }
 
 
-.logo_tit {
-    display: flex;
-    width: 182.667px;
-    height: 38.667px;
-    padding: 4px 0px 4.667px 41.333px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-shrink: 0;
-}
+
 
 .feel_top .sec_sub-tit {
     max-width: 596px;
