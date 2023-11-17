@@ -1267,6 +1267,7 @@ svg {
 
 .inputx {
     height: 136px;
+    width: 100%;
 }
 
 .form_input-inkx {
@@ -1276,6 +1277,11 @@ svg {
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
 }
 
 .frame {
