@@ -941,7 +941,21 @@ footer {
 svg {
     margin-right: 20px;
 }
-
+.secret_tit{
+    width: 1030px;
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60.5px; /* 110% */
+}
+.secret_img{
+    width: 1070.289px;
+height: 699.535px;
+flex-shrink: 0;
+}
 .provide_right {
     width: calc(50% - 45px);
 }
@@ -949,7 +963,6 @@ svg {
 .provide .sec_sub-tit {
     margin-bottom: 24px;
 }
-
 .provide_txt {
     color: #2c2f24;
     font-size: 18px;
