@@ -684,6 +684,7 @@ footer {
 }
 
 .feel_play {
+    width: 106px;
     height: 106px;
     display: block;
     border-radius: 50%;
