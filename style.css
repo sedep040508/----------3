@@ -1119,6 +1119,13 @@ svg {
     height: 372px;
 }
 
+.hero_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 .left_fact {
     border-radius: 8px;
     border: 1px solid var(--neutral-03, #DBDFD0);
