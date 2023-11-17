@@ -86,7 +86,11 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
+.desc_txt{
+    width: 632px;
+    justify-content: center;
+    align-items: center;
+}
 .dn {
     display: none;
 }
@@ -531,10 +535,16 @@ section {
 .blog_right {
     width: 50%;
     padding-left: 24px;
+    gap: 24px;
 }
 
 .blog_right .blog_card {
     width: calc(50% - 12px);
+    
+}
+.blog_img{
+    display: inline-block;
+    border-radius: 12px;
 }
 
 footer {
@@ -1192,6 +1202,8 @@ svg {
 .our_img {
     width: 70px;
     height: 70px;
+    border-radius: 70px;
+    overflow: hidden;
 }
 
 .our_customer {
