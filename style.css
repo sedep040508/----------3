@@ -86,11 +86,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-.desc_txt{
-    width: 632px;
-    justify-content: center;
-    align-items: center;
-}
+
 .dn {
     display: none;
 }
