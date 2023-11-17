@@ -136,7 +136,9 @@ section {
     width: 545px;
 }
 
-.
+.color {
+    color: #be963f;
+}
 
 .dib {
     display: inline-block;
