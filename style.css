@@ -683,16 +683,7 @@ footer {
     text-align: center;
 }
 
-.feel_play {
-    width: 106px;
-    height: 106px;
-    display: block;
-    border-radius: 50%;
-    background: #fff;
-    margin: 0 auto 34px;
-    position: relative;
-    margin-left: 5px;
-}
+
 
 .feel_play::before {
     content: '';
